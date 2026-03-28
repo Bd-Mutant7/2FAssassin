@@ -24,7 +24,7 @@
 pip install 2fassassin
 cd /root/2fassassin
 OR
-git clone https://github.com/maxwellkoh/2FAssassin.git
+git clone https://github.com/bd-mutant7/2FAssassin.git
 cd 2fassassin
 
 
