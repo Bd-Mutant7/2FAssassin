@@ -1,15 +1,15 @@
 
-## Notes ##
+## Notes 
 
-- Will upload LATEST codes by 10th September 2017. 
+[![Support](https://img.shields.io/badge/Support-Paystack-00C3F7?style=for-the-badge&logo=paypal&logoColor=white)](https://paystack.shop/pay/bd-mutant7)
 
 
-## Preamble ##
+## Preamble 
 
 - Code changes from time to time, please do a 'git pull' before running the tool.
 
 
-## Intro ##
+## Intro 
 
 - The effectiveness of the Two-Factor-Authentication depends on how well a user protects "something only the user has".
 - The tool looks out for getting the OTP(s) and private keys using various methods.
@@ -18,7 +18,7 @@
 - Propagates the compromise starting from a single machine to the entire networks via looted private keys.
 
 
-## Installing ##
+## Installing 
 
 - Install python on Kali Linux, then run:
 pip install 2fassassin
@@ -28,7 +28,7 @@ git clone https://github.com/bd-mutant7/2FAssassin.git
 cd 2fassassin
 
 
-## Features ##
+## Features 
 
 root@kali:~/2fassassin# python assassin.py -h
 
@@ -68,7 +68,7 @@ root@kali:~/2fassassin#
 
 
 
-## Example Usage ##
+## Example Usage 
 
 - Network enumeration:     
 ./assassin.py --scan <basic | advanced> --target <ip_address | range>
